@@ -1,0 +1,24 @@
+{
+    "devDependencies": {
+        "@types/node": "^20.4.0",
+        "typescript": "^5.1.6"
+    },
+    "scripts": {
+        "chat": "npx tsc && node dist/chat.js",
+        "ingest": "npx tsc && node dist/ingest.js",
+        "test": "npx tsc && node dist/test.js"
+    },
+    "dependencies": {
+        "@huggingface/inference": "^2.6.1",
+        "@types/common-tags": "^1.8.1",
+        "@xenova/transformers": "^2.3.1",
+        "common-tags": "^1.8.2",
+        "dotenv": "^16.3.1",
+        "faiss-node": "^0.2.2",
+        "gpt3-tokenizer": "^1.1.5",
+        "langchain": "^0.0.104",
+        "pdf-parse": "^1.1.1",
+        "pickleparser": "^0.1.0"
+    },
+    "type": "module"
+}
